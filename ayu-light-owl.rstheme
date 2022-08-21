@@ -1,6 +1,6 @@
-/* rs-theme-name: Ayu-light-owl */
+/* rs-theme-name: ahjota-light-owl */
 /* rs-theme-is-dark: FALSE */
-/* Ayu-light modified by the color scheme from Light Owl */
+/* Ayu-light modified by the color scheme from Light Owl with ahjota customizations */
 
 .ace_gutter {
   background: #FAFAFA;
@@ -10,6 +10,11 @@
 .ace_print-margin {
   width: 1px;
   background: #e8e8e8;
+}
+
+/* add stylistic sets for fira code */
+.ace_editor {
+  font-feature-settings: "onum","ss04","ss07";
 }
 
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
